@@ -9,8 +9,8 @@ export default async function displayRazorpay() {
     key: process.env.RAZORPAY_KEY_ID,
     currency: data.currency,
     amount: data.amount,
-    name: "Learn Code Online",
-    description: "Wallet Transaction",
+    name: "Sadhna Track",
+    description: "Integration of Razorpay with React",
     image: "http://localhost:1337/logo.png",
     order_id: data.id,
     handler: function (response) {
@@ -18,8 +18,8 @@ export default async function displayRazorpay() {
       alert("ORDER ID :: " + response.razorpay_order_id);
     },
     prefill: {
-      name: "Anirudh Jwala",
-      email: "anirudh@gmail.com",
+      name: "Kishan Kumar",
+      email: "kishankr7909@gmail.com",
       contact: "9999999999",
     },
   };
